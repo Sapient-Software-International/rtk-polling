@@ -1,0 +1,13 @@
+.posts-component {
+  padding: 40px 0;
+}
+
+.posts-header {
+  margin-bottom: 30px;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

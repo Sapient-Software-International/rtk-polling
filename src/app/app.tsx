@@ -1,12 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import PostsComponent from './components/posts-component/posts-component';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="rtk-polling" />
+    <div className="container">
+      <PostsComponent />
     </div>
   );
 }
